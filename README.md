@@ -6,16 +6,16 @@
 
 You can install any formula from this tap using one of the following methods:
 
-brew install giantswarm/muster/<formula>
+brew install choas/muster/<formula>
 
 Or tap the repository first:
 
-brew tap giantswarm/muster
+brew tap choas/muster
 brew install <formula>
 
 Or include it in a Brewfile for use with brew bundle:
 
-tap "giantswarm/muster"
+tap "choas/muster"
 brew "<formula>"
 
 ---
