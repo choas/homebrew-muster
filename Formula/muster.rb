@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 class Muster < Formula
-  desc "A CLI tool for managing and discovering external services and tools."
+  desc "A CLI tool for managing and discovering external services and tools"
   homepage "https://github.com/giantswarm/muster"
   version "0.0.52"
   license "Apache-2.0"
@@ -14,18 +14,18 @@ class Muster < Formula
     end
     if Hardware::CPU.intel?
       url "https://github.com/giantswarm/muster/releases/download/v0.0.52/muster_darwin_amd64.zip"
-      sha256 "..."
+      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/giantswarm/muster/releases/download/v0.0.52/muster_linux_arm64.tar.gz"
-      sha256 "..."
+      sha256 "eda6507eae451e2f6e60892b30642087f423ddec9e92ca22946523c3f679a5e6"
     end
     if Hardware::CPU.intel?
       url "https://github.com/giantswarm/muster/releases/download/v0.0.52/muster_linux_amd64.tar.gz"
-      sha256 "..."
+      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
     end
   end
 
