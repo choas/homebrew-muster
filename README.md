@@ -6,17 +6,24 @@
 
 You can install any formula from this tap using one of the following methods:
 
-brew install choas/muster/<formula>
+``` shell
+brew install choas/muster/muster
+```
+
 
 Or tap the repository first:
 
+``` shell
 brew tap choas/muster
-brew install <formula>
+brew install muster
+```
 
 Or include it in a Brewfile for use with brew bundle:
 
+``` shell
 tap "choas/muster"
-brew "<formula>"
+brew "muster"
+```
 
 ---
 
