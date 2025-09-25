@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 class Muster < Formula
-  desc "A CLI tool for managing and discovering external services and tools"
+  desc "CLI tool for managing and discovering external services and tools"
   homepage "https://github.com/giantswarm/muster"
   version "0.0.52"
   license "Apache-2.0"
@@ -34,6 +34,6 @@ class Muster < Formula
   end
 
   test do
-    system "#{bin}/muster --version"
+    system "#{bin}/muster", "--version"
   end
 end
